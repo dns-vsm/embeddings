@@ -9,6 +9,10 @@ DNS embeddings can be useful in many engineering activities, with practical appl
   <img src='dns-vsm_analogical_reasoning.png' />  
 </p>
 
+<p align="center">
+  Fig 1 - Analogical reasoning with the DNS-VSM
+</p>
+
 
 
 
