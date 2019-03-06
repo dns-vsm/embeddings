@@ -5,6 +5,11 @@ Domain names in the DNS-VSM are represented by vectors where related domain name
 
 DNS embeddings can be useful in many engineering activities, with practical application in many areas. Some examples include websites recommendations based on similar sites, competitive analysis, identification of fraudulent or risky sites, parental-control systems, UX improvements (based on recommendations, spell correction, etc.), click-stream analysis, representation and clustering of users navigation profiles, optimization of cache systems in recursive DNS resolvers (among others).
 
-<center><img src='dns-vsm_analogical_reasoning.png' /></center>
+<p align="center">
+  <img src='dns-vsm_analogical_reasoning.png' />
+  Fig 1 - Analogical reasoning with the DNS-VSM
+</p>
+
+
 
 
