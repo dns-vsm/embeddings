@@ -36,7 +36,7 @@ Now, activate the new enviroment
 pyenv activate dns-vsm
 ```
 
-Once the enviroment is activated, install the gensim dependecy
+Once the enviroment is activated, install the gensim dependency
 ```
 pip install gensim==3.1.0
 ```
