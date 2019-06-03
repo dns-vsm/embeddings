@@ -8,7 +8,7 @@ DNS embeddings can be useful in many engineering activities, with practical appl
 
 ## Before using the DNS-VSM
 
-It's important to note that these vectors were trained using data from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then simlar sites can be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production enviroment.</b>
+It's important to note that these vectors were trained using data from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then simlar sites can be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production environment.</b>
 
 ## Download pre-trained vectors
 The pre-trained vectors for the DNS-VSM can be downloaded from <a href='#'>here</a>.  Download and unzip the content to the <i>models</i> folder.   
@@ -24,24 +24,24 @@ gensim 3.1.0
 
 ### Installation using pyenv with virtual env
 
-First, create the virtual enviroment
+First, create the virtual environment
 
 ```
 pyenv virtualenv 3.6.4 dns-vsm
 ```
 
-Now, activate the new enviroment
+Now, activate the new environment
 
 ```
 pyenv activate dns-vsm
 ```
 
-Once the enviroment is activated, install the gensim dependency
+Once the environment is activated, install the gensim dependency
 ```
 pip install gensim==3.1.0
 ```
 ### Using the DNS-VSM
-Open a terminal, activate the dns-vsm virtual enviroment and type <i>python</i> to enter to the Python's interactve mode.
+Open a terminal, activate the dns-vsm virtual environment and type <i>python</i> to enter to the Python's interactve mode.
 
 
 The DNS-VSM uses the gensim's wrapper for FastText, so in order to use the DNS-VSM you need to import the FastText wrapper as follows:
