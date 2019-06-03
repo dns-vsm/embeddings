@@ -46,7 +46,7 @@ pip install gensim==3.1.0
 Open a terminal, activate the dns-vsm virtual enviroment and type <i>python</i> to enter to the Python's interactve mode.
 
 
-The DNS-VSM uses the gennsim's wrapper for FastText, so in order to use the DNS-VSM you need to import the FastText wrapper as follows:
+The DNS-VSM uses the gensim's wrapper for FastText, so in order to use the DNS-VSM you need to import the FastText wrapper as follows:
 
 ```
 from gensim.models.wrappers.fasttext import FastText as ft
