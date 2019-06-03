@@ -70,7 +70,7 @@ You should see the following output:
  ('vivomontevideo.com', 0.710254430770874)]
 ```
 
-### Semantic similarity
+#### Semantic similarity
 
 The table bellow analyzes the most similar sites to <i>subrayado.com.uy</i> (TV news).
 
@@ -96,7 +96,9 @@ The table bellow analyzes the most similar sites to <i>subrayado.com.uy</i> (TV 
 
 <br/>
 Table above give strong evidence about the model’s capability for capturing semantic information about domain names.
-Semantic similarity between domain names can be helpful in many scenarios, for example for filtering adult content as part of a pàrental control system.
+Semantic similarity between domain names can be helpful in many scenarios, for example for filtering adult content as part of a parental control system.
+Suppose you know some content that you want to filter but not all of the them. 
+In that case you can find and filter contents that are similar to some specific sites like in the following example:  
 <br/>
 
 ```
@@ -120,10 +122,13 @@ dns_embeddings.most_similar('pornhub.com', topn=10)
 <i>Most similar sites to pornhub.com (an adult specific content site)</i>
 </p>
 
+<br/>
 
-### Analogical reasoning
+#### Analogical reasoning
 
 Other use case scenario is analogical reasoning with Internet domain names:
+
+<br/>
 
 ```
 dns_embeddings.most_similar(positive=['atlantida.com.uy', 'maldonado.gub.uy'], negative=['canelones.gub.uy'], topn=3)
@@ -135,7 +140,9 @@ dns_embeddings.most_similar(positive=['atlantida.com.uy', 'maldonado.gub.uy'], n
 
 
 <br/>
+
 Other example of analogical reasoning:
+
 <br/>
 
 ```
@@ -147,14 +154,19 @@ dns_embeddings.most_similar(positive=['puntashopping.com.uy', 'montevideo.gub.uy
 | <b><i>puntashopping.com.uy</i></b> <br/><br/> (site for a shopping center in Maldonado city) | <b><i>montevideo.gub.uy</i></b> <br/><br/>(site for the Montevideo city government) | <b><i>maldonado.gub.uy</i></b> <br/><br/>(site for the Maldonado city government) | <b><i>tiendasmontevideo.com</i></b> <br/><br/><b><i>montevideoshopping.com.uy</i></b> <br/><br/>(sites for shopping centers in Montevideo city)|
 
 <br/>
+
 The previous examples show 2 of the 3 domain names nearest to the resulting vector <i>v1 + v2 − v3</i>. 
 Analogical reasoning could be helpful for understanding complex relationships between domain names. 
 
+<br/>
 
-### Support for out-of-vocabulary domain names.
+
+#### Support for out-of-vocabulary (OOV) domain names.
 The DNS-VSM was built using character n-grams between 11 and 17 characters. 
 When a domain names that does not not have a vector representation in the DNS-VSM shares some of its n-grams with some other domain name that is part of the DNS-VSM, then the DNS-VSM can approximate its vector representation and use it for all common operations as if it were part of the original DNS-VSM.
 We can ilustrate this better through an example.
+
+<br/>
 
 ```
 dns_embeddings.most_similar('samtanderuniversidades.con.uy', topn=9)
@@ -176,13 +188,21 @@ dns_embeddings.most_similar('samtanderuniversidades.con.uy', topn=9)
 <i>Most similar sites for an oov domain name.</i>
 </p>
 
+<br/>
+
 
 Support for out-of-vocabulary (OOV) domain names, could be helpful for identifying domain names that for some reason are incorrect, and also to
 find the correct match for it. A domain name could be bad formed because of many reasons, for example because it was typed incorrectly with a typo
 or because a harmful software shows a bad formed url intentionally (for example typosquatted domains 63 or IDN homograph attacks 64 ) trying to deceive a user to redirect him/her to a website that looks identically to the original one but generally designed to steal user credentials, banking and credit card details (a.k.a phishing ).
 
+<br/>
+
+
 ## Jupyter notebook
 You can check <a href='dns_embeddings.ipynb'>this jupyter notebook</a> with the code used in these examples and some others. 
+
+<br/>
+
 
 ## References
 If you use these vectors for any pupose please cite the following works:
