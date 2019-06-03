@@ -1,0 +1,4 @@
+## Download pre-trained vectors
+The pre-trained vectors for the DNS-VSM can be download from <a href='#'>here</a>. 
+Download and unzip the content to this folder.   
+
