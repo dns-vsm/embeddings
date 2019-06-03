@@ -1,6 +1,6 @@
 # DNS-VSM
 
-Vector Space Model for DNS (for short, DNS-VSM) is a set of pre-trained vectors (embeddings) for 40000 Internet domain names. These embeddings were built as part of the work presented in [], [] and [].
+Vector Space Model for DNS (for short, DNS-VSM) is a set of pre-trained vectors (embeddings) for 40000 Internet domain names. These embeddings were built as part of the work presented in [1], [2] and [3].
 
 Domain names in the DNS-VSM are represented by vectors where related domain names are mapped to nearby points in the high dimensional space. The DNS-VSM was built only using information of DNS queries from a large uruguayan ISP (with data from 2013) without any other previous knowledge about the content hosted in each domain. 
 
@@ -209,18 +209,14 @@ You can check <a href='dns_embeddings.ipynb'>this jupyter notebook</a> with the 
 ## References
 If you use these vectors for any pupose please cite the following works:
 
-[1] ...
+[1] W. Lopez, "Vector representation of Internet domain names using word embedding techniques," 
+M.S. thesis, Instituto de Computación, Facultad de Ingenierı́a, Universidad de la República, Montevideo, Uruguay, 2019.
 
+[2] W. Lopez, J. Merlino and P. Rodriguez-Bocca, "Extracting semantic information from Internet Domain Names using word embeddings",
+submitted to Engineering Applications of Artificial Intelligence (ELSEVIER), 2019.
 
-[2] W. Lopez, J. Merlino and P. Rodriguez-Bocca, "Extracting semantic
-information from Internet Domain Names using word embeddings",
-submitted to Engineering Applications of Artificial Intelligence
-(ELSEVIER), 2019.
-
-[3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, "Vector
-representation of internet domain names using a word embedding
-technique," 2017 XLIII Latin American Computer Conference
-(CLEI), Cordoba, 2017, pp. 1-8.
+[3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, "Vector representation of internet domain names using a word embedding technique," 
+2017 XLIII Latin American Computer Conference (CLEI), Cordoba, 2017, pp. 1-8.
 
 
 
