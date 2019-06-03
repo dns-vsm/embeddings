@@ -201,7 +201,7 @@ dns_embeddings.most_similar('samtanderuniversidades.con.uy', topn=9)
 
 Support for out-of-vocabulary (OOV) domain names, could be helpful for identifying domain names that for some reason are incorrect, and also to
 find the correct match for it. A domain name could be bad formed because of many reasons, for example because it was typed incorrectly with a typo
-or because a harmful software shows a bad formed url intentionally (for example typosquatted domains or IDN homograph attacks) trying to deceive a user to redirect him/her to a website that looks identically to the original one but generally designed to steal user credentials, banking and credit card details (a.k.a phishing ).
+or because a harmful software shows a bad formed url intentionally (for example typosquatted domains or IDN homograph attacks) trying to deceive a user to redirect him/her to a website that looks identically to the original one but generally designed to steal user credentials, banking and credit card details (a.k.a phishing).
 
 <br/>
 
