@@ -198,8 +198,8 @@ dns_embeddings.most_similar('samtanderuniversidades.con.uy', topn=9)
 | bcu.gub.uy | banking | 0.808 ||
 | discbank.com.uy | banking | 0.750 ||
 | browserforthebetter.com | - | 0.785 | Domain does not exist anymore (Feb-2019) |
-| brou.com.uy | press, newspaper | 0.751 ||
-| nbc.com.uy | press, radio, newspaper | 0.749 |Domain does not exist anymore (Feb-2019)|
+| brou.com.uy | banking | 0.751 ||
+| nbc.com.uy | banking | 0.749 |Domain does not exist anymore (Feb-2019)|
 
 <p align="center">
 <i>Most similar sites for an oov domain name.</i>
