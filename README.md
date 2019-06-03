@@ -135,7 +135,15 @@ dns_embeddings.most_similar('pornhub.com', topn=10)
 
 #### Analogical reasoning
 
-Other use case scenario is analogical reasoning with Internet domain names:
+One of the most beatiful thing about word embeddings (in particular those embeddings that were trained using pedictive shallow neural network models) is analogical reasoning. 
+
+Analogical reasoning with word embeddings allows to apply simple arithmetic operations with the vector representations of words and find complex relationships between them. 
+
+There is a famous example when working with word embeddings where <i>embedding("queen")</i> is approximated as <i>embedding("King")  + embedding("Woman") - embedding("Man")</i>. In other words, adding the vectors associated with the words king and woman while subtracting man is equal (or very similar) to the vector associated with queen.
+
+This hidden linear structure of the vector space model for word embeddings can also be used in the DNS-VSM in a similar way to find complex relationships between domain names. 
+
+For example:
 
 <br/>
 
