@@ -77,6 +77,8 @@ You should see the following output:
  ('vivomontevideo.com', 0.710254430770874)]
 ```
 
+<br/>
+
 #### Semantic similarity
 
 The table bellow analyzes the most similar sites to <i>subrayado.com.uy</i> (TV news).
