@@ -112,7 +112,7 @@ In that case you can find and filter contents that are similar to some specific 
 ```
 dns_embeddings.most_similar('pornhub.com', topn=10)
 ```
-<p align="center">
+
 | Domain name  | Type | Cosine distance |
 | -------------| -----| ----------------|
 | youporn.com| adult website | 0.879 |
@@ -125,11 +125,8 @@ dns_embeddings.most_similar('pornhub.com', topn=10)
 | pornhubpremium.com | adult website | 0.693 |
 | genericlink.com | - | 0.687 |
 | youporngay.com | adult website | 0.68 |
-</p>
 
-<p align="center">
 <i>Most similar sites to pornhub.com (an adult specific content site)</i>
-</p>
 
 <br/>
 
