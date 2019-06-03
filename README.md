@@ -81,7 +81,7 @@ You should see the following output:
 
 #### Semantic similarity
 
-The table bellow analyzes the most similar sites to <i>subrayado.com.uy</i> (TV news).
+The following table analyzes the most similar sites to <i>subrayado.com.uy</i> (TV news).
 
 
 | Domain name  | Type | Cosine distance | Observations |
@@ -171,7 +171,7 @@ Analogical reasoning could be helpful for understanding complex relationships be
 
 #### Support for out-of-vocabulary (OOV) domain names
 The DNS-VSM was built using character n-grams between 11 and 17 characters. 
-When a domain names that does not not have a vector representation in the DNS-VSM shares some of its n-grams with some other domain name that is part of the DNS-VSM, then the DNS-VSM can approximate its vector representation and use it for all common operations as if it were part of the original DNS-VSM.
+When a domain name does not have a vector representation in the DNS-VSM but shares some of its n-grams with some other domain name that is part of the DNS-VSM, then the DNS-VSM can approximate its vector representation and use it for all common operations as if it were part of the original DNS-VSM.
 We can ilustrate this better through an example.
 
 <br/>
