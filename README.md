@@ -107,7 +107,7 @@ The following table analyzes the most similar sites to <i>subrayado.com.uy</i> (
 Table above give strong evidence about the model’s capability for capturing semantic information about domain names.
 Semantic similarity between domain names can be helpful in many scenarios, for example in the example above for recommending similar semantically related sites.
 
-Other interesting use case where semantic similarity can be helful could be for filtering adult content as part of a parental control system.
+Other interesting use case where semantic similarity can be helpful could be for filtering adult content as part of a parental control system.
 Suppose you know some content that you want to filter but not all of the them. 
 In that case you can find and filter contents that are similar to some specific sites like in the following example:  
 <br/>
