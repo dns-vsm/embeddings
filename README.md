@@ -8,7 +8,7 @@ DNS embeddings can be useful in many engineering activities, with practical appl
 
 ## Before using the DNS-VSM
 
-It's important to note that these vectors are from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then simlar sites can be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production enviroment.</b>
+It's important to note that these vectors were trained using data from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then simlar sites can be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production enviroment.</b>
 
 ## Download pre-trained vectors
 The pre-trained vectors for the DNS-VSM can be downloaded from <a href='#'>here</a>. 
