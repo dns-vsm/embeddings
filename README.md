@@ -11,8 +11,9 @@ DNS embeddings can be useful in many engineering activities, with practical appl
 It's important to note that these vectors are from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then simlar sites can be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production enviroment.</b>
 
 ## Download pre-trained vectors
-The pre-trained vectors for the DNS-VSM can be download from <a href='#'>here</a>. 
-Download and unzip the content (files 21epoc_minn11_maxn17 and 21epoc_minn11_maxn17.wv.syn0_ngrams.npy) to the <i>models</i> folder.   
+The pre-trained vectors for the DNS-VSM can be downloaded from <a href='#'>here</a>. 
+
+Download and unzip the files <i>21epoc_minn11_maxn17</i> and <i>21epoc_minn11_maxn17.wv.syn0_ngrams.npy</i> to the <i>models</i> folder.   
 
 ## Installation
 This project was tested using python 3.6.4 and it requires gensim 3.1.0 (obs: newer versions of gensim may not work).
