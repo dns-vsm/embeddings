@@ -10,6 +10,10 @@ DNS embeddings can be useful in many engineering activities, with practical appl
 
 It's important to note that these vectors are from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then simlar sites can be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production enviroment.</b>
 
+## Download pre-trained vectors
+The pre-trained vectors for the DNS-VSM can be download from <a href='#'>here</a>. 
+Download and unzip the content to the <i>models</i> folder.   
+
 ## Installation
 This project was tested using python 3.6.4 and it requires gensim 3.1.0 (obs: newer versions of gensim may not work).
 
@@ -38,7 +42,10 @@ Once the enviroment is activated, install the gensim dependecy
 pip install gensim==3.1.0
 ```
 ### Using the DNS-VSM
-The DNS-VSM uses the gennsim's wrapper for FastText, so in order to use it you need to import the FastText wrapper as follows:
+Open a terminal, activate the dns-vsm virtual enviroment and type <i>python</i> to enter to the Python's interactve mode.
+
+
+The DNS-VSM uses the gennsim's wrapper for FastText, so in order to use the DNS-VSM you need to import the FastText wrapper as follows:
 
 ```
 from gensim.models.wrappers.fasttext import FastText as ft
@@ -207,15 +214,14 @@ You can check <a href='dns_embeddings.ipynb'>this jupyter notebook</a> with the 
 
 
 ## References
-If you use these vectors for any pupose please cite the following works:
 
-[1] W. Lopez, "Vector representation of Internet domain names using word embedding techniques," 
+[1] W. Lopez, <i>"Vector representation of Internet domain names using word embedding techniques,"</i> 
 M.S. thesis, Instituto de Computación, Facultad de Ingenierı́a, Universidad de la República, Montevideo, Uruguay, 2019.
 
-[2] W. Lopez, J. Merlino and P. Rodriguez-Bocca, "Extracting semantic information from Internet Domain Names using word embeddings",
+[2] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <i>"Extracting semantic information from Internet Domain Names using word embeddings"</i>,
 submitted to Engineering Applications of Artificial Intelligence (ELSEVIER), 2019.
 
-[3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, "Vector representation of internet domain names using a word embedding technique," 
+[3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <i>"Vector representation of internet domain names using a word embedding technique,"</i> 
 2017 XLIII Latin American Computer Conference (CLEI), Cordoba, 2017, pp. 1-8.
 
 
