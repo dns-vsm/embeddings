@@ -12,7 +12,7 @@ It's important to note that these vectors are from 2013 and since then many doma
 
 ## Download pre-trained vectors
 The pre-trained vectors for the DNS-VSM can be download from <a href='#'>here</a>. 
-Download and unzip the content to the <i>models</i> folder.   
+Download and unzip the content (files 21epoc_minn11_maxn17 and 21epoc_minn11_maxn17.wv.syn0_ngrams.npy) to the <i>models</i> folder.   
 
 ## Installation
 This project was tested using python 3.6.4 and it requires gensim 3.1.0 (obs: newer versions of gensim may not work).
@@ -169,7 +169,7 @@ Analogical reasoning could be helpful for understanding complex relationships be
 <br/>
 
 
-#### Support for out-of-vocabulary (OOV) domain names.
+#### Support for out-of-vocabulary (OOV) domain names
 The DNS-VSM was built using character n-grams between 11 and 17 characters. 
 When a domain names that does not not have a vector representation in the DNS-VSM shares some of its n-grams with some other domain name that is part of the DNS-VSM, then the DNS-VSM can approximate its vector representation and use it for all common operations as if it were part of the original DNS-VSM.
 We can ilustrate this better through an example.
