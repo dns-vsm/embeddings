@@ -86,7 +86,7 @@ The following table analyzes the most similar sites to <i>subrayado.com.uy</i> (
 | Domain name  | Type | Cosine distance | Observations |
 | -------------| -----| ----------------| -------------|
 | subrayado.com| Non existent domain | 0.961 |Same domain, but without country code ‘uy’|
-| diariolarepublica.net| press, newspaper | 0.836 | Alias for republica.com.uy |
+| diariolarepublica.net| press, newspaper | 0.836 | Alias for larepublica.com.uy |
 | eldiario.com.uy | press, newspaper | 0.807 ||
 | lr21.com.uy | press, newspaper | 0.799 ||
 | teledoce.com | press, tv news | 0.792 ||
