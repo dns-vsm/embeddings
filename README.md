@@ -46,12 +46,12 @@ Open a terminal, activate the dns-vsm virtual environment and type <i>python</i>
 
 The DNS-VSM uses the gensim's wrapper for FastText, so in order to use the DNS-VSM you need to import the FastText wrapper as follows:
 
-```
+``` python
 from gensim.models.wrappers.fasttext import FastText as ft
 ```
 
 Now, you can load the pre-trained vectors in this way:
-```
+``` python
 dns_embeddings = ft.load('models/ft/21epoc_minn11_maxn17')
 ```
 
