@@ -112,7 +112,7 @@ Suppose you know some content that you want to filter but not all of the them.
 In that case you can find and filter contents that are similar to some specific sites like in the following example:  
 <br/>
 
-```
+``` python
 dns_embeddings.most_similar('pornhub.com', topn=10)
 ```
 
@@ -147,7 +147,7 @@ For example:
 
 <br/>
 
-```
+``` python
 dns_embeddings.most_similar(positive=['atlantida.com.uy', 'maldonado.gub.uy'], negative=['canelones.gub.uy'], topn=3)
 ```
 
@@ -162,7 +162,7 @@ Other example of analogical reasoning:
 
 <br/>
 
-```
+``` python
 dns_embeddings.most_similar(positive=['puntashopping.com.uy', 'montevideo.gub.uy'], negative=['maldonado.gub.uy'], topn=3)
 ```
 
@@ -185,7 +185,7 @@ We can ilustrate this better through an example.
 
 <br/>
 
-```
+``` python
 dns_embeddings.most_similar('samtanderuniversidades.con.uy', topn=9)
 ```
 
@@ -231,6 +231,3 @@ submitted to Engineering Applications of Artificial Intelligence (ELSEVIER), 201
 
 [3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <i>"Vector representation of internet domain names using a word embedding technique,"</i> 
 2017 XLIII Latin American Computer Conference (CLEI), Cordoba, 2017, pp. 1-8.
-
-
-
