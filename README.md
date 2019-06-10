@@ -56,7 +56,7 @@ dns_embeddings = ft.load('models/ft/21epoc_minn11_maxn17')
 ```
 
 Finally, you can use the DNS-VSM to query for similar domains:
-```
+``` python
 dns_embeddings.most_similar('subrayado.com.uy', topn=12)
 ```
 
