@@ -223,6 +223,8 @@ You can check <a href='dns_embeddings.ipynb'>this jupyter notebook</a> with the 
 
 ## References
 
+If you use the DNS-VSM for any purpose, please cite the following works:
+
 [1] W. Lopez, <i>"Vector representation of Internet domain names using word embedding techniques,"</i> 
 M.S. thesis, Instituto de Computación, Facultad de Ingenierı́a, Universidad de la República, Montevideo, Uruguay, 2019.
 
