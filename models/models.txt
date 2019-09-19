@@ -1,4 +1,11 @@
 ## Download pre-trained vectors
-The pre-trained vectors for the DNS-VSM can be download from <a href='#'>here</a>. 
-Download and unzip the content to this folder.   
+The pre-trained vectors for the DNS-VSM can be download from: https://drive.google.com/file/d/1NWGd-pfjZpsgASoZW7YUUiJFjWzEdozq/view?usp=sharing
 
+Download and unzip the content to this folder.
+
+The folder structure should looks like:
+
+-> models
+    -> ft
+        -> 21epoc_minn11_maxn17
+        -> 21epoc_minn11_maxn17.wv.syn0_ngrams.npy
