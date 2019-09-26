@@ -4,7 +4,8 @@ Vector Space Model for DNS (for short, DNS-VSM) is a set of pre-trained vectors 
 
 Domain names in the DNS-VSM are represented by vectors where related domain names are mapped to nearby points in the high dimensional space. The DNS-VSM was built only using information of DNS queries from a large uruguayan ISP (with data from 2013) without any other previous knowledge about the content hosted in each domain. 
 
-DNS embeddings can be useful in many engineering activities, with practical application in many areas. Some examples include websites recommendations based on similar sites, competitive analysis, identification of fraudulent or risky sites, parental-control systems, UX improvements (based on recommendations, spell correction, etc.), click-stream analysis, representation and clustering of users navigation profiles, optimization of cache systems in recursive DNS resolvers (among others).
+DNS embeddings can be useful in many engineering activities, with practical application in many areas.
+Some examples include websites recommendations based on similar sites, competitive analysis, identification of fraudulent or risky sites, parental-control systems, UX improvements (based on recommendations, spell correction, etc.), click-stream analysis, representation and clustering of users navigation profiles, optimization of cache systems in recursive DNS resolvers, anomaly detection in network traffic analysis (among others).
 
 ## Before using the DNS-VSM
 
@@ -50,7 +51,7 @@ Once the environment is activated, install the gensim dependency
 ```
 pip install gensim==3.1.0
 ```
-### Using the DNS-VSM
+## Using the DNS-VSM
 Open a terminal, activate the dns-vsm virtual environment and type <i>python</i> to enter to the Python's interactive mode.
 
 
@@ -88,7 +89,7 @@ You should see the following output:
 
 <br/>
 
-#### Semantic similarity
+### Semantic similarity
 
 The following table analyzes the most similar sites to <i>subrayado.com.uy</i> (TV news).
 
@@ -143,7 +144,7 @@ dns_embeddings.most_similar('pornhub.com', topn=10)
 
 <br/>
 
-#### Analogical reasoning
+### Analogical reasoning
 
 One of the most beautiful thing about word embeddings (in particular those embeddings that were trained using pedictive shallow neural network models) is analogical reasoning. 
 
@@ -188,7 +189,7 @@ Analogical reasoning could be helpful for understanding complex relationships be
 <br/>
 
 
-#### Support for out-of-vocabulary (OOV) domain names
+### Support for out-of-vocabulary (OOV) domain names
 The DNS-VSM was built using character n-grams between 11 and 17 characters. 
 When a domain name does not have a vector representation in the DNS-VSM but shares some of its n-grams with some other domain name that is part of the DNS-VSM, then the DNS-VSM can approximate its vector representation and use it for all common operations as if it were part of the original DNS-VSM.
 We can ilustrate this better through an example.
