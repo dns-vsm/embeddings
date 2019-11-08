@@ -1,15 +1,18 @@
 # DNS-VSM
 
-Vector Space Model for DNS (for short, DNS-VSM) is a set of pre-trained vectors (embeddings) for 40000 Internet domain names. These embeddings were built as part of the work presented in [1], [2] and [3].
+Vector Space Model for DNS (for short, DNS-VSM) is a set of pre-trained vectors (a.k.a embeddings) for 40000 Internet domain names. These embeddings were built as part of the work presented in [1], [2] and [3].
 
-Domain names in the DNS-VSM are represented by vectors where related domain names are mapped to nearby points in the high dimensional space. The DNS-VSM was built only using information of DNS queries from a large uruguayan ISP (with data from 2013) without any other previous knowledge about the content hosted in each domain. 
+Domain names in the DNS-VSM are represented by vectors where related domain names are mapped to nearby points in the high dimensional space.
+The DNS-VSM was built only using information of DNS queries (trained on a similar dataset to the one used in [1]) without any other previous knowledge about the content hosted in each domain.
 
 DNS embeddings can be useful in many engineering activities, with practical application in many areas.
 Some examples include websites recommendations based on similar sites, competitive analysis, identification of fraudulent or risky sites, parental-control systems, UX improvements (based on recommendations, spell correction, etc.), click-stream analysis, representation and clustering of users navigation profiles, optimization of cache systems in recursive DNS resolvers, anomaly detection in network traffic analysis (among others).
 
 ## Before using the DNS-VSM
 
-It's important to note that these vectors were trained using data from 2013 and since then many domains have disappeared and many others have been created. Also, since the DNS queries used for this project are not global (data used comes just from one ISP located in Uruguay), then similar sites might be bias to uruguayan sites. <b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production environment.</b>
+It's important to note that many domains could have disappeared and many others could have been created in the last years.
+Also, since the DNS queries used for this project are not global (data used comes from only one ISP), then there could be some kind of bias on similar sites.
+<b>For these two reasons, it's strongly recommended to use these vectors just for academic purposes and not for any production environment.</b>
 
 ## Download pre-trained vectors
 The pre-trained vectors for the DNS-VSM can be downloaded from <a href='https://drive.google.com/file/d/1NWGd-pfjZpsgASoZW7YUUiJFjWzEdozq/view?usp=sharing'>here</a>.  Download and unzip the content to the <i>models</i> folder.
