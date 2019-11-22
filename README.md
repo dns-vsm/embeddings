@@ -242,8 +242,8 @@ If you use the DNS-VSM for any purpose, please cite the following works:
 [1] W. Lopez, <a href='https://drive.google.com/file/d/1U1Opb1jT3cl-HoQGNe2umCA6OYK6rg18/view?usp=sharing'><i>"Vector representation of Internet domain names using word embedding techniques,"</i></a>
 M.S. thesis, Instituto de Computación, Facultad de Ingenierı́a, Universidad de la República, Montevideo, Uruguay, 2019. (T)
 
-[2] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <a href='http://www.clei2017-46jaiio.sadio.org.ar/sites/default/files/Mem/SLIOIA/slioia-11.pdf'><i>"Extracting semantic information from Internet Domain Names using word embeddings"</i></a>,
+[2] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <i>"Extracting semantic information from Internet Domain Names using word embeddings"</i>,
 submitted to Engineering Applications of Artificial Intelligence (ELSEVIER), 2019.
 
-[3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <i>"Vector representation of internet domain names using a word embedding technique,"</i> 
+[3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <a href='http://www.clei2017-46jaiio.sadio.org.ar/sites/default/files/Mem/SLIOIA/slioia-11.pdf'><i>"Vector representation of internet domain names using a word embedding technique,"</i></a>
 2017 XLIII Latin American Computer Conference (CLEI), Cordoba, 2017, pp. 1-8.
