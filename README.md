@@ -34,6 +34,7 @@ This project was tested using python 3.6.4 and it requires gensim 3.1.0 (obs: ne
 ```
 python 3.6.4
 gensim 3.1.0
+scipy 1.2.1
 ```
 
 ### Installation using pyenv with virtual env
