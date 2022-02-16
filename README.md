@@ -249,3 +249,5 @@ Engineering Applications of Artificial Intelligence (ELSEVIER), Volume 94, 2020,
 
 [3] W. Lopez, J. Merlino and P. Rodriguez-Bocca, <a href='http://www.clei2017-46jaiio.sadio.org.ar/sites/default/files/Mem/SLIOIA/slioia-11.pdf'><i>"Vector representation of internet domain names using a word embedding technique,"</i></a>
 2017 XLIII Latin American Computer Conference (CLEI), Cordoba, 2017, pp. 1-8.
+
+[4] J. Merlino and P. Rodríguez-Bocca, <a href='https://ieeexplore.ieee.org/document/9640221'><i>"Short-time prediction of DNS queries using deep learning and pre-trained word embedding,"</i></a> 2021 XLVII Latin American Computing Conference (CLEI), 2021, pp. 1-10, doi: 10.1109/CLEI53233.2021.9640221.
