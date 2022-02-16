@@ -239,7 +239,7 @@ You can check <a href='dns_embeddings.ipynb'>this jupyter notebook</a> with the 
 
 If you use the DNS-VSM for any purpose, please cite the following works:
 
-[1] W. Lopez, <a href='https://drive.google.com/file/d/1U1Opb1jT3cl-HoQGNe2umCA6OYK6rg18/view?usp=sharing'><i>"Vector representation of Internet domain names using word embedding techniques,"</i></a>
+[1] W. Lopez, <a href='https://www.colibri.udelar.edu.uy/jspui/handle/20.500.12008/27783'><i>"Vector representation of Internet domain names using word embedding techniques,"</i></a>
 M.S. thesis, Instituto de Computación, Facultad de Ingenierı́a, Universidad de la República, Montevideo, Uruguay, 2019. (T)
 
 [2] W. López, J. Merlino, P. Rodríguez-Bocca, <a href='http://www.sciencedirect.com/science/article/pii/S0952197620301974'><i>"Learning semantic information from Internet Domain Names using word embeddings"</i></a>, 
