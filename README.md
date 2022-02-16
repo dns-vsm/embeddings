@@ -230,7 +230,7 @@ or because a harmful software shows a bad formed url intentionally (for example 
 
 
 ## Jupyter notebook
-You can check <a href='dns_embeddings.ipynb'>this Jupyter Notebook</a> with the code used in these examples and some others. You can also play with the DNS-VSM model direclty in <a href='https://colab.research.google.com/drive/1rtsUHF1OYJFxBzDgNu3LQjPox3vqbj4g?usp=sharing'>this Google Colab Notebook</a> directly in the browser without any local environment configuration. 
+You can check <a href='dns_embeddings.ipynb'>this Jupyter Notebook</a> with the code used in these examples and some others. You can also play with the DNS-VSM model in <a href='https://colab.research.google.com/drive/1rtsUHF1OYJFxBzDgNu3LQjPox3vqbj4g?usp=sharing'>this Google Colab Notebook</a> directly in the browser without any local environment configuration. 
 
 <br/>
 
