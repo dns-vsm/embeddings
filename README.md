@@ -236,6 +236,11 @@ You can check <a href='dns_embeddings.ipynb'>this Jupyter Notebook</a> with the 
 
 <br/>
 
+## Videos
+You can check <a href='https://www.youtube.com/watch?v=7sczAdNuBUE'>this video</a> with the presentation of the DNS-VSM model during the Pyhon's conference in Colombia on February 2020 (PyCon 2020).
+
+<br/>
+
 
 ## References
 
