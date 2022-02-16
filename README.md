@@ -51,9 +51,10 @@ Now, activate the new environment
 pyenv activate dns-vsm
 ```
 
-Once the environment is activated, install the gensim dependency
+Once the environment is activated, install dependencies
 ```
 pip install gensim==3.1.0
+pip install scipy==1.2.1
 ```
 ## Using the DNS-VSM
 Open a terminal, activate the dns-vsm virtual environment and type <i>python</i> to enter to the Python's interactive mode.
